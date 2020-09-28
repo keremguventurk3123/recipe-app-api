@@ -33,6 +33,5 @@ class ModelTests(TestCase):
             "kerem.guventurk@gmail.com",
             "password"
         )
-
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
